@@ -1,0 +1,14 @@
+<Context>
+
+  <Resource name="jdbc/st4db"
+  			auth="Container" 
+  			type="javax.sql.DataSource"
+			maxActive="100" maxIdle="30" maxWait="10000"
+			username="provider" password="internet" 
+			driverClassName="com.mysql.jdbc.Driver"
+			defaultAutoCommit="false"
+			defaultTransactionIsolation="READ_COMMITTED"
+			connectionProperties="useUnicode=yes;characterEncoding=utf8;serverTimezone=UTC;useSSL=false"
+			url="jdbc:mysql://localhost:3306/st4db"/>
+			
+</Context>

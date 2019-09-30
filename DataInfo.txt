@@ -1,0 +1,5 @@
+Database: MySQL
+connection.url = jdbc:mysql://localhost:3306/st4antonov_db?user=provider&password=internet&serverTimezone=UTC&useSSL=false&characterEncoding=utf8
+
+main DB user = root, root
+user for work = provider, internet
